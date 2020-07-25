@@ -1,0 +1,33 @@
+html {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    background-image: url(/images/works-cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white
+}
+
+body h1 {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+body button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+body button a {
+    text-decoration: none;
+    font-family: proxima-nova, sans-serif;
+    font-size: 20px;
+    color: white;
+}

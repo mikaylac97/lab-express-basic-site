@@ -1,0 +1,37 @@
+html{
+    background-image: url(/images/bianca-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+body h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+body div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body button a {
+    text-decoration: none;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px;
+}
+
+body button {
+    background-color: transparent;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    border: 3px solid white;
+}

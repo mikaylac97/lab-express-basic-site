@@ -1,0 +1,41 @@
+html {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    background-image: url(/images/about-cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white
+}
+
+body {
+    width: 70%;
+    text-align: left;
+    margin-top: 325px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+body h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+div {
+    display: flex;
+    justify-content: left;
+}
+
+div button {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+div button a {
+    text-decoration: none;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px;
+}
